@@ -5,5 +5,7 @@ var router = express.Router();
 router.get('/', function(req, res, next) {
   res.send('respond with a resource');
 });
+//next di gunakan untuk menghandle middleware
+
 
 module.exports = router;
